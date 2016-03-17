@@ -1,0 +1,118 @@
+body,p,ul,li,div,span,h1,h2,h6,strong,em{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+}
+
+#box,#computerAirs,#tntBox,#comAirBox{
+	position:relative;
+	display:block;
+	width:512px;
+	height:650px;
+	margin:0 auto;
+	overflow:hidden;
+	z-index:151;
+}
+
+#comAirBox{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:151;
+}
+
+#userAir{
+	position:absolute;
+	width:106px;
+	height:76px;
+	bottom:10px;
+	margin-left:0px;
+	z-index:300;
+}
+
+div>img.bullet,#comAirBox>img{
+	position:absolute;
+	width:10px;
+	height:35px;
+	z-index:150;
+}
+
+#comAirBox>img{
+	z-index:99990;
+}
+
+#computerAirs strong{
+	position:absolute;
+	display:block;
+	width:116px;
+	height:76px;
+	z-index:199;
+	background-size:10px 10px;
+}
+
+#computerAirs img{
+	position:absolute;
+}
+
+.boom{
+	position:absolute;
+	width:116px;
+	height:82px;
+}
+
+em{
+	position:absolute;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	font-style:normal;
+	font-weight:bold;
+	color:#fff;
+	right:10px;
+	bottom:10px;
+	background:radial-gradient(#ff0,#f00);
+	border-radius:50%;
+}
+
+#tntBox{
+	z-index:100!important;
+}
+
+
+#tntBox img{
+	position:absolute;
+	width:200px;
+	height:150px;
+}
+
+#userScore{
+	position:absolute;
+	right:10px;
+	top:10px;
+	width:200px;
+	height:50px;
+	line-height:50px;
+	font-size:25px;
+	letter-spacing:2px;
+	color:#fff;
+	text-align:right;
+	font-family:arial;
+}
+#userScore::before{
+	content:'score: ';
+	color:#f00;
+}
+
+.airFunc{
+	position:absolute;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	z-index:9999999;
+	border-radius:50%;
+	background:radial-gradient(#ff0,#f00);
+}
